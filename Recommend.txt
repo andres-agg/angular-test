@@ -1,0 +1,1 @@
+- Si una función tiene mas de 3 argumentos, hacerlo objeto
