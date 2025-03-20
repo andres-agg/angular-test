@@ -1,5 +1,6 @@
-import { Component, signal } from '@angular/core';
+import { Component, inject, signal } from '@angular/core';
 import { GifListComponent } from '../../components/gif-list/gif-list.component';
+import { GifService } from '../../services/gifs.service';
 
 @Component({
   selector: 'app-trending-page',
@@ -22,5 +23,7 @@ export default class TrendingPageComponent {
     "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg",
     "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-11.jpg"
   ]);
+
+  gifService = inject( GifService );
 
 }

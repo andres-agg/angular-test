@@ -1,2 +1,3 @@
 - Si una función tiene mas de 3 argumentos, hacerlo objeto
 - Usar el tipo 'any' como ultimo recurso, de preferencia usar genéricos para obtener autoayuda en los métodos del objeto
+- import type : cuándo solo se importa 1 cosa, es buena practica colocarlo para reducir el tamaño del paquete y mejorar el rendimiento

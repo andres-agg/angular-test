@@ -6,6 +6,7 @@ export const environment = {
 
   // ApiKeys
   giphyApiKey: 'N2UjqLB3hkIa4QdjVVXDPGiKpOVC3Cuw',
+  giphyUrl: 'https://api.giphy.com/v1'
 
   // URLS
 };
